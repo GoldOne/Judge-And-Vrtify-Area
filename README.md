@@ -8,3 +8,5 @@ Issues
 Directory JavaQuiz
 2.Derby Database supported Java Quiz System
 Directory JavaDerby
+3.Java Quiz System with GUI
+Directory QuizGUI
