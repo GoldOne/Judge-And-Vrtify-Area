@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JavaQuestions>
+<MQuestion>
+<question>
+Which of the following statements is correct?
+</question>
+<answer>
+2
+</answer>
+<choices>
+A class in Java can extend one or more classes
+A class in Java can extend one class and implement one or more interfaces
+A class in Java can extend one interface and implement one or two classes
+A class in Java can extend one class and implement one interface
+</choices>
+</MQuestion>
+<TFQuestion>
+<question>
+You cannot override the toString() method in any class you create.
+</question>
+<answer>
+False
+</answer>
+</TFQuestion>
+<TFQuestion>
+<answer>
+false
+</answer>
+<question>
+You can create an abstract class object using the new operator.
+</question>
+</TFQuestion>
+<TFQuestion>
+<question>
+Superclasses can contain abstract methods.
+</question>
+<answer>
+true
+</answer>
+</TFQuestion>
+<MQuestion>
+<question>
+What is the result of compiling the following code?  
+
+public class Test {  
+       public static void main ( String[] args) {  
+            int value; 
+            value = value + 1;  
+            System.out.println(" The value is : " + value);  
+       }  
+}
+</question>
+<choices>
+Compile and runs with no output
+Does not compile
+Compiles and runs printing out "The value is 1"
+Compiles but generates run time error
+</choices>
+<answer>
+2
+</answer>
+</MQuestion>
+<MQuestion>
+<question>
+The difference between an object and a class is
+</question>
+<choices>
+A class is a blueprint of an object and an object reserves memory for variables based on the class blueprint
+Nothing; they are both the same
+An object is a blueprint of an object and a class reserves memory for variables based on the object blueprint
+A class and an object both serve as templates to all java objects
+</choices>
+<answer>
+1
+</answer>
+</MQuestion>
+<MQuestion>
+<question>
+In Java, the concept of keeping data private is known as _______.
+</question>
+<choices>
+polymorphism
+information hiding
+data deception
+concealing fields
+</choices>
+<answer>
+2
+</answer>
+</MQuestion>
+<MQuestion>
+<question>
+A superclass can also be called a _______.
+</question>
+<choices>
+child class
+subclass
+derived class
+base class
+</choices>
+<answer>
+4
+</answer>
+</MQuestion>
+<TFQuestion>
+<question>
+All method declarations contain arguments.
+</question>
+<answer>
+false
+</answer>
+</TFQuestion>
+<MQuestion>
+<question>
+Which is true about an anonymous inner class?
+</question>
+<choices>
+It can extend exactly one class and implement exactly one interface.
+It can extend exactly one class and can implement multiple inerfaces.
+It can extend exactly one class or implement exactly one interface.
+It can implement mulitple interfaces regardless of whether it also extends a class.
+It can implement multiple interfaces if it does not extends a class.
+</choices>
+<answer>
+3
+</answer>
+</MQuestion>
+<TFQuestion>
+<question>
+A constructor of a class can receive parameters.
+</question>
+<answer>
+True
+</answer>
+</TFQuestion>
+</JavaQuestions>
