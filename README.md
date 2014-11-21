@@ -10,3 +10,5 @@ Directory JavaQuiz
 Directory JavaDerby
 3.Java Quiz System with GUI
 Directory QuizGUI
+4. C/S arichitecture Java Quiz System with GUI support
+Directory QuizCS
