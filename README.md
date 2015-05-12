@@ -12,3 +12,5 @@ Directory JavaDerby
 Directory QuizGUI
 4. C/S arichitecture Java Quiz System with GUI support
 Directory QuizCS
+5. Menu Choices Nutrition Java GUI
+Directory MenuChoicesNutrition
