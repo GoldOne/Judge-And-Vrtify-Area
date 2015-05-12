@@ -1,4 +1,3 @@
-//@Author Yi Jin ID:s0273749
 public class Customer
 {
 	protected String name;

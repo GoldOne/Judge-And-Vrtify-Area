@@ -1,4 +1,3 @@
-//@Author Yi Jin ID:s0273749
 public class MenuItem 
 {  
 	final private static String food[]={"Caprese Sandwich",

@@ -1,4 +1,3 @@
-//@Author Yi Jin ID:s0273749
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;

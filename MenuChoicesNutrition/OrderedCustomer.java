@@ -1,4 +1,3 @@
-//@Author Yi Jin ID:s0273749
 public class OrderedCustomer extends Customer
 {
 	private int total[]=new int[5];
