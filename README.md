@@ -14,3 +14,5 @@ Directory QuizGUI
 Directory QuizCS
 5. Menu Choices Nutrition Java GUI
 Directory MenuChoicesNutrition
+6. Dietary Information System
+Directory Dietary Information System

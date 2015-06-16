@@ -1,0 +1,13 @@
+type,name,Calories, Saturated Fat(g), Cholesterol (mg), Sodium (mg), Fiber (g)
+beverage,Caffe Latte  Whole Milk,140,4,20,105,0
+beverage,Orange Juice Large,220,0,0,5,1
+beverage,Root Beer,300,0,0,45,0
+food,Egg on a Bagel  Bacon Cheese,510,6,350,880,2
+food,Macaroni and Cheese Large,710,24,125,1560,3
+beverage,Sierra Mist,300,0,0,60,0
+beverage,Sweet Tea,250,0,0,20,0
+beverage,Vanilla Latte  Whole Milk,240,4,20,105,0
+food,Caprese Sandwich,550,13,30,860,3
+food,Chicken Pomodoro Sandwich,680,13,105,1410,4
+food,Meat Lasagna,470,11,100,1080,5
+food,Roasted Angus Steak  Rice Bowl,630,4,80,1100,3
