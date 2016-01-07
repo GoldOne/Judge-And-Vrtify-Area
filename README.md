@@ -9,34 +9,34 @@ Here is my past work on java!!!
 1.  A Java Quiz System
 
 
-Directory JavaQuiz
+    Directory JavaQuiz
 
 
-2.  Derby Database supported Java Quiz System
+2. Derby Database supported Java Quiz System
 
 
-Directory JavaDerby
+    Directory JavaDerby
 
 
-3.Java Quiz System with GUI
+3. Java Quiz System with GUI
 
 
-Directory QuizGUI
+    Directory QuizGUI
 
 
 4.  C/S arichitecture Java Quiz System with GUI support
 
 
-Directory QuizCS
+    Directory QuizCS
 
 
 5.  Menu Choices Nutrition Java GUI
 
 
-Directory MenuChoicesNutrition
+    Directory MenuChoicesNutrition
 
 
 6.  Dietary Information System
 
 
-Directory Dietary Information System
+     Directory Dietary Information System
