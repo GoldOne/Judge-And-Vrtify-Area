@@ -1,7 +1,7 @@
 JavaDerby
 =====================
 
-##Structure of the Java packages:
+###Structure of the Java packages:
 The Java classes created in this assignment will have the following package structure. You may add more supporting classes in appropriate packages if necessary.
 
 
@@ -24,6 +24,8 @@ The Java classes created in this assignment will have the following package stru
 The `UserInterface` and `QuestionLibrary` packages with documentation are provided.
 
 **Task 1: Database management**
+
+
 **Requirements:**
 
 
@@ -42,16 +44,20 @@ The Derby system home directory should be called `MyQuestionDB` located in your 
 
 
 **Task 2: Database creation and population**
+
+
 **Requirements:**
+
+
 All questions are stored in a table called Questions in the database. The table is created using the following SQL statement:
 
 
     CREATE TABLE Questions (Q_ID INT NOT NULL GENERATED ALWAYS AS
-                                          IDENTITY (START WITH 1, INCREMENT BY 1),
-                                          question CLOB,
-                                          choices CLOB,
-                                          answer INT,
-                                          CONSTRAINT primary_key PRIMARY KEY (Q_ID))
+                                                 IDENTITY (START WITH 1, INCREMENT BY 1),
+                                                 question CLOB,
+                                                 choices CLOB,
+                                                 answer INT,
+                                                 CONSTRAINT primary_key PRIMARY KEY (Q_ID))
 
  
 You should populate the table using the `addQuestion` method specified in the `QuestionDB` interface with questions from the question file with a format as specified in the Appendix C. This table will store both multiple choice questions and true-and-false questions.
@@ -64,6 +70,8 @@ All above functions should be implemented programmatically in your program.
 
 
 **Task 3: Design and Implementation of the `MyQuestionDB` Class**
+
+
 **Requirements:**
 
 
