@@ -81,8 +81,10 @@ The following methods are defined:
     - Response: (*a question object*)
     
     
-                    Upon receiving the GET QUESTION message, the server sends back a serialised question object to the requesting client.
-                    Do not send all details of a question in strings but send only an object of a multiple choice question or true-and-false question class to the client using object serialisation.
+                    Upon receiving the GET QUESTION message, the server sends back a serialised question object to the requesting 
+                    client.
+                    Do not send all details of a question in strings but send only an object of a multiple choice question or 
+                    true-and-false question class to the client using object serialisation.
                     
 + BYE method:
 
