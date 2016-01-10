@@ -59,7 +59,9 @@ The following methods are defined:
 
 + **REGISTER method:**
 
-  -  Request: REGISTER *username*
+  -  Request: REGISTER *username*  
+  
+
          The client sends the REGISTER message with a one word string *username* of the client user                    name to the server to register the user.
                 
                 
