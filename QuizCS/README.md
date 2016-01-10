@@ -1,50 +1,64 @@
 QuizCS
 =====================
-Structures of the Client/server Packages
+###Structures of the Client/server Packages
+
+
 The Java classes created in this assignment will have the following package structure. You may add more supporting classes in appropriate packages if necessary.
- Server packages:
-/WorkingDirectory/Server
-JavaQuizServer.java
-questions.xml
-(Other configuration files if any)
-/au/edu/uow
-/Networking
-JavaClientHandler.java
-(Classes related to networking)
-/UserInterface
-UserInterface.java
-(Other interface related classes)
-/QuestionLibrary
-Question.java
-MultipleChoiceQuestion.java
-TrueAndFalseQuestion.java
-(Other related classes to load questions)
-Your main server application will be created in JavaQuizServer.java file, which will load the Java questions from the questions file and serve concurrent clients. The server should send different quizzes to different clients. The client handling task class is implemented in JavaClientHandler.java file.
 
-Client packages:
-/WorkingDirectory/Client
-JavaQuizClient.java
-(Other configuration files if any)
-/au/edu/uow
-/Networking
-(Classes related to networking)
-/ClientGUI
-QuizClientGUIFrame.java
-Student.java
-(Other GUI related classes)
-/QuestionLibrary
-Question.class
-MultipleChoiceQuestion.class
-TrueAndFalseQuestion.class
-Your main client application will be created in JavaQuizClient.java file, which will load your interface from QuizClientFrame.java. (Hint: develop your QuestionLibrary package in the server directory and copy only the compiled class files to the client directory.)
 
-Client/server Communication Protocol:
++ **Server packages:**
+    /WorkingDirectory/Server
+                  JavaQuizServer.java
+                  questions.xml
+                  (Other configuration files if any)
+                /au/edu/uow
+                          /Networking
+                                    JavaClientHandler.java
+                                    (Classes related to networking)
+                          /UserInterface
+                                  UserInterface.java
+                                  (Other interface related classes)
+                          /QuestionLibrary
+                                  Question.java
+                                  MultipleChoiceQuestion.java
+                                  TrueAndFalseQuestion.java
+                                  (Other related classes to load questions)
+
+
+Your main server application will be created in `JavaQuizServer.java` file, which will load the Java questions from the questions file and serve concurrent clients. The server should send different quizzes to different clients. The client handling task class is implemented in `JavaClientHandler.java` file.
+
++ **Client packages:**
+    /WorkingDirectory/Client
+                  JavaQuizClient.java
+                  (Other configuration files if any)
+                  /au/edu/uow
+                          /Networking
+                                      (Classes related to networking)
+                          /ClientGUI
+                                QuizClientGUIFrame.java
+                                Student.java
+                                (Other GUI related classes)
+                          /QuestionLibrary
+                                Question.class
+                                MultipleChoiceQuestion.class
+                                TrueAndFalseQuestion.class
+
+
+Your main client application will be created in `JavaQuizClient.java` file, which will load your interface from `QuizClientFrame.java`. (Hint: develop your `QuestionLibrary` package in the server directory and copy only the compiled class files to the client directory.)
+
+
+**Client/server Communication Protocol:**
+
+
 The following methods are defined:
- REGISTER method:
-Request: REGISTER username
-The client sends the REGISTER message with a one word string username of the client user name to the server to register the user.
-Response: OK
-Upon receiving the REGISTER message, the server sends back an acknowledgement message, OK, to the requesting client.
+
+
++ **REGISTER method:**
+
+    Request: REGISTER *username*
+                The client sends the REGISTER message with a one word string *username* of the client user                    name to the server to register the user.
+    Response: OK
+                Upon receiving the REGISTER message, the server sends back an acknowledgement message, OK, to                 the requesting client.
  GET QUESTION method:
 Request: GET QUESTION
 The client sends the GET QUESTION message to the server to request a Java quiz question.
