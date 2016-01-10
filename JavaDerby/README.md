@@ -37,7 +37,7 @@ You should use a properties file, called `database.properties`, located in your 
 
     jdbc.drivers
     jdbc.url
-    derby.system.home
+   derby.system.home
 
 
 The Derby system home directory should be called `MyQuestionDB` located in your working directory, which is set using `System.setProperty` method before the JDBC driver is loaded. The database to store all question should be called `JavaQuestionDB` in the Derby system home directory.
@@ -51,14 +51,14 @@ The Derby system home directory should be called `MyQuestionDB` located in your 
 
 All questions are stored in a table called Questions in the database. The table is created using the following SQL statement:
 
-
+```SQL
     CREATE TABLE Questions (Q_ID INT NOT NULL GENERATED ALWAYS AS
                                                  IDENTITY (START WITH 1, INCREMENT BY 1),
                                                  question CLOB,
                                                  choices CLOB,
                                                  answer INT,
                                                  CONSTRAINT primary_key PRIMARY KEY (Q_ID))
-
+```
  
 You should populate the table using the `addQuestion` method specified in the `QuestionDB` interface with questions from the question file with a format as specified in the Appendix C. This table will store both multiple choice questions and true-and-false questions.
 
