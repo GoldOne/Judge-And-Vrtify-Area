@@ -46,9 +46,9 @@ After the student name is typed into the text field and a return key is pressed 
 
 At any stages, if the **Exit** button is pressed, the program should exit.
 
-<center>
-![Fig 1: First stage screen shot](http://i11.tietuku.com/31437b767d5f1aa0.png)
 
+![Fig 1: First stage screen shot](http://i11.tietuku.com/31437b767d5f1aa0.png)
+<center>
 **Fig 1: First stage screen shot**
 </center>
 Task 2: Program Configuration
