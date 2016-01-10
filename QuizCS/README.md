@@ -66,22 +66,39 @@ The following methods are defined:
                 
                 
    - Response: OK
+  
+   
          Upon receiving the REGISTER message, the server sends back an acknowledgement message, OK, to                 the requesting client.
                 
                 
- GET QUESTION method:
-Request: GET QUESTION
-The client sends the GET QUESTION message to the server to request a Java quiz question.
-Response: (a question object)
-Upon receiving the GET QUESTION message, the server sends back a serialised question object to the requesting client.
-Do not send all details of a question in strings but send only an object of a multiple choice question or true-and-false question class to the client using object serialisation.
- BYE method:
-Request: BYE
-The client sends the BYE message to the server to end a session.
-Response: (null)
-Upon receiving the BYE message, the server closes the requesting client connection. The server does not need to send anything back to the requesting client.
++ **GET QUESTION method:**
+    - Request: GET QUESTION 
+    
 
-Server Requirements
+                    The client sends the GET QUESTION message to the server to request a Java quiz question.
+
+
+    - Response: (*a question object*)
+    
+    
+                    Upon receiving the GET QUESTION message, the server sends back a serialised question                          object to the requesting client.
+                    Do not send all details of a question in strings but send only an object of a multiple                        choice question or true-and-false question class to the client using object serialisation.
+                    
++ BYE method:
+
+    - Request: BYE
+    
+    
+                    The client sends the BYE message to the server to end a session.
+                    
+                    
+    - Response: (*null*)
+    
+    
+                    Upon receiving the BYE message, the server closes the requesting client connection. The                       server does not need to send anything back to the requesting client.
+
+
+**Server Requirements**
 The server listens to a socket port for client connection requests. The server program can receive a command line argument for the listening port number. For example,
 java JavaQuizServer 40213
 If the server program starts without any argument, it listens to a default port.
