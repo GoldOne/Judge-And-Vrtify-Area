@@ -29,11 +29,11 @@ Suggestions: Before you implement most functionality of your classes, the Java q
 
 You should design and implement a `UserInterface` class to support the Java quiz application to provide a console based user interface to display information and take user input. A sample screen shot that shows how this class interacts with users is shown in the Appendix C. This class should have at least the following methods as required by the Java quiz application:
 
-
+```Java
      public Student getStudent()
      public void startQuiz(List quiz, Student student) 
      public void showStudentMarks(Student student)
-
+```
 
 The `getStudent()` method registers the student in a simple login process; the `startQuiz()` method presents the questions and records answers; the `showStudentMarks()` method shows the student marks. This class should be in the package `au.edu.uow.UserInterface`.
 
@@ -46,10 +46,10 @@ The `getStudent()` method registers the student in a simple login process; the `
 
 You should design and implement a `QuestionLibrary` class to support the Java quiz application to store all questions of the question library and make quizzes from the question library. This class should have at least the following methods as required by the Java quiz application:
 
-
+```Java
    public static boolean buildLibrary(String qFile)
    public static List makeQuiz(int noOfQuestions)
-
+```
 
 The `buildLibrary()` method loads all questions from a question library file with a format as specified in the Appendix D to build a list of all questions; the `makeQuiz()` method makes a quiz with the specified number of questions from the question library. Each quiz should not have duplicates of questions and quizzes in different runs should contain different sets of randomly selected questions. This class should be in the package `au.edu.uow.QuestionLibrary`.
 
