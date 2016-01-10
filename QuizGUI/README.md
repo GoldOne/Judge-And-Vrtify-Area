@@ -49,7 +49,7 @@ At any stages, if the **Exit** button is pressed, the program should exit.
 
 ![Fig 1: First stage screen shot](http://i11.tietuku.com/31437b767d5f1aa0.png)
 
-->**Fig 1: First stage screen shot**<-
+<p align='center'>**Fig 1: First stage screen shot**</p>
  
 
 ###Task 2: Program Configuration
