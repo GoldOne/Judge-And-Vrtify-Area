@@ -179,9 +179,9 @@ Once the user pressed the "`Get Score`”button, The connection should be termin
 
 
 The user name and scores should be maintained by the `Student` object in the client program.
-<div align='center'>![Fig6](http://i11.tietuku.com/7ef47b1bc0f769c6.png)
+![Fig6](http://i11.tietuku.com/7ef47b1bc0f769c6.png)
 <p align='center'><b>Figure: Question Screen</b></p>
 
 ![Fig7](http://i11.tietuku.com/80d67a7b3caae94d.png)
 <p align='center'><b>Figure: Final Score Screen</b></p>
-</div>
+
