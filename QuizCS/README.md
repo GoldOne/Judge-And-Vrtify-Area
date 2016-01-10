@@ -82,6 +82,7 @@ The following methods are defined:
     
     
                     Upon receiving the GET QUESTION message, the server sends back a serialised question                          object to the requesting client.
+                    
                     Do not send all details of a question in strings but send only an object of a multiple                        choice question or true-and-false question class to the client using object serialisation.
                     
 + BYE method:
@@ -95,7 +96,8 @@ The following methods are defined:
     - Response: (*null*)
     
     
-                    Upon receiving the BYE message, the server closes the requesting client connection. The                       server does not need to send anything back to the requesting client.
+                    Upon receiving the BYE message, the server closes the requesting client connection.
+                    The server does not need to send anything back to the requesting client.
 
 
 **Server Requirements**
