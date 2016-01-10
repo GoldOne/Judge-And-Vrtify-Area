@@ -108,7 +108,7 @@ The following methods are defined:
 The server listens to a socket port for client connection requests. The server program can receive a command line argument for the listening port number. For example,
 
 
-                            `java JavaQuizServer 40213`
+                                java JavaQuizServer 40213
                             
 If the server program starts without any argument, it listens to a default port.
 
@@ -124,7 +124,7 @@ The server should display information about the listening port and status of con
 
 The client program can receive a command line argument for the server name and/or port number. For example,
 
-                            `java JavaQuizClient localhost (or localhost:40213)`
+                                java JavaQuizClient localhost (or localhost:40213)
                             
             
 If the client program starts without any argument, it connects to local host and a default port.
@@ -179,7 +179,7 @@ Once the user pressed the "`Get Score`”button, The connection should be termin
 
 
 The user name and scores should be maintained by the `Student` object in the client program.
-![Fig6](http://i11.tietuku.com/7ef47b1bc0f769c6.png)
+<p align='cneter'>![Fig6](http://i11.tietuku.com/7ef47b1bc0f769c6.png)</p>
 <p align='center'><b>Figure: Question Screen</b></p>
 
 ![Fig7](http://i11.tietuku.com/80d67a7b3caae94d.png)
