@@ -53,6 +53,24 @@ At any stages, if the **Exit** button is pressed, the program should exit.
 
 ###Task 2: Program Configuration
 
+####Stage 2 – Question Screen:
+Fig. 2 is the screen of the GUI in second stage for true and false questions. It presents the questions
+to users and receives the user answer. In this screen, the registration area in the tool bar should be
+disabled to prevent any modification to the student name. It should contain an area to present
+question and an area to receive the answer. Radio buttons should be used for answer selection and
+the selection should be exclusive. (Only one answer can be selected.) At the bottom of the screen,
+there should be a“**Next**” button to proceed to the next question. (If no answer is selected before
+pressing the **Next**” button, it should be considered as a wrong answer.) In this stage, if the score
+button is pressed, the current score should be displayed in a dialogue box. The layout requirement is
+specified in Fig. 2.
+![Fig 2: Second stage screen shot of True and False Questions](http://i11.tietuku.com/8b355951e044b43e.png)
+<p align='center'><b>Fig 2: Second stage screen shot of True and False Questions</b></p>
+
+
+Fig. 3 shows the screen for multiple choice questions. The number of radio buttons should be the
+same as the number of answer choices. Other requirements are the same as for the true and false
+questions screen.
+
 
 Requirements:
 Your program should be configurable. Users of your program should be able to configure the Look and Feel, the window size, the number of questions in each quiz session and the question file name using a configuration file.
