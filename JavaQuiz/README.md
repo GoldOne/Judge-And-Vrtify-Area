@@ -8,12 +8,12 @@ Java Quiz System
 
 You should implement the `Student` class to support the Java quiz application to register the student’s name, record scores and give the final score at the end of the quiz. The API (public methods) of the `Student` class is defined as follows:
 
-
+```Java
      public void setName(String name) 
      public String getName() 
      public void recordScore(boolean isCorrect) 
      public int getScore()
-
+```
 
 You should write code to implement above methods.This class could be in the package `au.edu.uow.UserInterface`.
 
