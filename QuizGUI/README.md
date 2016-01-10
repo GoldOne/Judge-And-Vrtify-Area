@@ -91,6 +91,8 @@ In this stage, you can design any layout you like as long as you meet the above 
 
 
 **Requirements:**
+
+
 Your program should be configurable. Users of your program should be able to configure the *Look and Feel*, the window size, the number of questions in each quiz session and the question file name using a configuration file.
 
 
@@ -108,6 +110,6 @@ You should create a configuration file named “`JavaQuizGUI.conf`” for users 
 
 The configuration file should accompany your program and in the same directory as your GUI application.
 
-In your“*JavaQuizGUI.conf*”file, there should be a key/attribute pair as bellow to set the Look and Feel of your program to Java Metal Look and Feel:
+In your“`JavaQuizGUI.conf`”file, there should be a key/attribute pair as bellow to set the Look and Feel of your program to Java Metal Look and Feel:
 
         LookAndFeel=javax.swing.plaf.metal.MetalLookAndFeel
