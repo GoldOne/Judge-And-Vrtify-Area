@@ -130,7 +130,7 @@ The client program can receive a command line argument for the server name and/o
 If the client program starts without any argument, it connects to local host and a default port.
 
 
-    + Before connection
++ Before connection
         
         
 After starting the client program, you should have the following interface. The status bar should show the current status of the program. Inapplicable items in a state should be disabled.
@@ -139,19 +139,19 @@ After starting the client program, you should have the following interface. The 
 
 
 The Connection menu has menu items shown in the figure.
-                    - The “Connect” item connects the client to the server. If the user attempts to connect, an information dialog should pop up as shown.
+  - The “Connect” item connects the client to the server. If the user attempts to connect, an information dialog should pop up as shown.
 
 ![Fig3](http://i11.tietuku.com/3b2c0a1908f91f02.png)
 
 
-                    - The “Disconnect” item disconnects the client from the server;
-                    - The “Set Server” item pops up an input dialog for the user to specify the server name
+  - The “Disconnect” item disconnects the client from the server;
+  - The “Set Server” item pops up an input dialog for the user to specify the server name
 and port number as shown. The default server name should be “localhost:40213”.
 
 ![Fig4](http://i11.tietuku.com/d3072f0fc404b3fa.png)
 
 
-                    - The “Exit” item terminates the program. You need make sure to terminate the program
+  - The “Exit” item terminates the program. You need make sure to terminate the program
 before properly disconnecting it from the server if it is connected.
 
 
@@ -180,7 +180,7 @@ Once the user pressed the "`Get Score`”button, The connection should be termin
 
 The user name and scores should be maintained by the `Student` object in the client program.
 ![Fig6](http://i11.tietuku.com/7ef47b1bc0f769c6.png)
-<p algin='center'><b>Figure: Question Screen</b></p>
+<p align='center'><b>Figure: Question Screen</b></p>
 
 ![Fig7](http://i11.tietuku.com/80d67a7b3caae94d.png)
-<p algin='center'><b>Figure: Final Score Screen</b></p>
+<p align='center'><b>Figure: Final Score Screen</b></p>
