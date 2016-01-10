@@ -8,7 +8,7 @@ The Java classes created in this assignment will have the following package stru
 
 + **Server packages:**
 
-
+```Java
     /WorkingDirectory/Server
                   JavaQuizServer.java
                   questions.xml
@@ -25,13 +25,13 @@ The Java classes created in this assignment will have the following package stru
                                   MultipleChoiceQuestion.java
                                   TrueAndFalseQuestion.java
                                   (Other related classes to load questions)
-
+```
 
 Your main server application will be created in `JavaQuizServer.java` file, which will load the Java questions from the questions file and serve concurrent clients. The server should send different quizzes to different clients. The client handling task class is implemented in `JavaClientHandler.java` file.
 
 + **Client packages:**
 
-
+```Java
     /WorkingDirectory/Client
                   JavaQuizClient.java
                   (Other configuration files if any)
@@ -46,7 +46,7 @@ Your main server application will be created in `JavaQuizServer.java` file, whic
                                 Question.class
                                 MultipleChoiceQuestion.class
                                 TrueAndFalseQuestion.class
-
+```
 
 Your main client application will be created in `JavaQuizClient.java` file, which will load your interface from `QuizClientFrame.java`. (Hint: develop your `QuestionLibrary` package in the server directory and copy only the compiled class files to the client directory.)
 
@@ -60,10 +60,14 @@ The following methods are defined:
 + **REGISTER method:**
 
       Request: REGISTER *username*
+      
+      
         The client sends the REGISTER message with a one word string *username* of the client user                    name to the server to register the user.
                 
                 
     Response: OK
+    
+    
         Upon receiving the REGISTER message, the server sends back an acknowledgement message, OK, to                 the requesting client.
                 
                 
