@@ -37,7 +37,7 @@ You should use a properties file, called `database.properties`, located in your 
 
     jdbc.drivers
     jdbc.url
-   derby.system.home
+    derby.system.home
 
 
 The Derby system home directory should be called `MyQuestionDB` located in your working directory, which is set using `System.setProperty` method before the JDBC driver is loaded. The database to store all question should be called `JavaQuestionDB` in the Derby system home directory.
