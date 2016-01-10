@@ -15,8 +15,8 @@ The Java classes created in this assignment will have the following package stru
                   (Other configuration files if any)
                 /au/edu/uow
                           /Networking
-                                    JavaClientHandler.java
-                                    (Classes related to networking)
+                                  JavaClientHandler.java
+                                  (Classes related to networking)
                           /UserInterface
                                   UserInterface.java
                                   (Other interface related classes)
@@ -37,7 +37,7 @@ Your main server application will be created in `JavaQuizServer.java` file, whic
                   (Other configuration files if any)
                   /au/edu/uow
                           /Networking
-                                      (Classes related to networking)
+                               (Classes related to networking)
                           /ClientGUI
                                 QuizClientGUIFrame.java
                                 Student.java
@@ -59,16 +59,12 @@ The following methods are defined:
 
 + **REGISTER method:**
 
-      Request: REGISTER *username*
-      
-      
-        The client sends the REGISTER message with a one word string *username* of the client user                    name to the server to register the user.
+  -  Request: REGISTER *username*
+         - The client sends the REGISTER message with a one word string *username* of the client user                    name to the server to register the user.
                 
                 
-    Response: OK
-    
-    
-        Upon receiving the REGISTER message, the server sends back an acknowledgement message, OK, to                 the requesting client.
+   - Response: OK
+        - Upon receiving the REGISTER message, the server sends back an acknowledgement message, OK, to                 the requesting client.
                 
                 
  GET QUESTION method:
