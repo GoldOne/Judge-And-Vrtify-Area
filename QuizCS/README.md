@@ -7,6 +7,8 @@ The Java classes created in this assignment will have the following package stru
 
 
 + **Server packages:**
++ 
+
     /WorkingDirectory/Server
                   JavaQuizServer.java
                   questions.xml
@@ -28,6 +30,8 @@ The Java classes created in this assignment will have the following package stru
 Your main server application will be created in `JavaQuizServer.java` file, which will load the Java questions from the questions file and serve concurrent clients. The server should send different quizzes to different clients. The client handling task class is implemented in `JavaClientHandler.java` file.
 
 + **Client packages:**
+
+
     /WorkingDirectory/Client
                   JavaQuizClient.java
                   (Other configuration files if any)
@@ -56,9 +60,17 @@ The following methods are defined:
 + **REGISTER method:**
 
     Request: REGISTER *username*
+    
+    
                 The client sends the REGISTER message with a one word string *username* of the client user                    name to the server to register the user.
+                
+                
     Response: OK
+    
+    
                 Upon receiving the REGISTER message, the server sends back an acknowledgement message, OK, to                 the requesting client.
+                
+                
  GET QUESTION method:
 Request: GET QUESTION
 The client sends the GET QUESTION message to the server to request a Java quiz question.
