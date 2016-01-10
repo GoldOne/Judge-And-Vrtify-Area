@@ -49,9 +49,6 @@ At any stages, if the **Exit** button is pressed, the program should exit.
 
 ![Fig 1: First stage screen shot](http://i11.tietuku.com/31437b767d5f1aa0.png)
 <p align='center'><b>Fig 1: First stage screen shot</b></p>
- 
-
-###Task 2: Program Configuration
 
 ####Stage 2 – Question Screen:
 Fig. 2 is the screen of the GUI in second stage for true and false questions. It presents the questions
@@ -70,17 +67,47 @@ specified in Fig. 2.
 Fig. 3 shows the screen for multiple choice questions. The number of radio buttons should be the
 same as the number of answer choices. Other requirements are the same as for the true and false
 questions screen.
+![Fig 3: Second stage screen shot of Multiple Choice Questions](http://i11.tietuku.com/207d1f6b48ee8562.png)
+<p align='center'><b>Fig 3: Second stage screen shot of Multiple and False Questions</b></p>
+Fig. 4 shows the screen for the last question where the“**Next**”button should change to the
+"**Get Marks**”button. When the“**Get Marks**”button is pressed, the program should progress to the
+next stage.
+![Fig 4: The screen shot of the last question in the second stage](http://i11.tietuku.com/538979a0f24b52f1.png)
+<p align='center'><b>Fig 4: The screen shot of the last question in the second stage</b></p>
+
+####Stage 3 – Marks Presentation:
 
 
-Requirements:
-Your program should be configurable. Users of your program should be able to configure the Look and Feel, the window size, the number of questions in each quiz session and the question file name using a configuration file.
-A Java program can set up its own configurable attributes, called program attributes. Program attributes allow the user to configure various startup options, preferred window size, and so on for the program. Sometimes the term preferences is used instead of program attributes.
-You should create a configuration file named “JavaQuizGUI.conf” for users to configure the program. Your program should use Java Properties class API to load the program attributes into your program. At least, the following configurations should be included in your configuration file.
- The size of your program window;
- The Look and Feel of your program;
- The number of questions in each quiz session;
- The Question file name;
+Fig. 5 is the screen in the third stage for the score presentation. It should present the final marks
+with the student name and the possible maximal marks. It should contain an "**Exit**”button. It should
+not contain the tool bar in previous stages.
+
+
+In this stage, you can design any layout you like as long as you meet the above requirements.
+![Fig 5: Third stage screen shot for the final marks presentation](http://i11.tietuku.com/0989dc7127f95832.png)
+<p align='center'><b>Fig 5: Third stage screen shot for the final marks presentation</b></p>
+
+###Task 2: Program Configuration
+
+
+**Requirements:**
+Your program should be configurable. Users of your program should be able to configure the *Look and Feel*, the window size, the number of questions in each quiz session and the question file name using a configuration file.
+
+
+A Java program can set up its own configurable attributes, called *program attributes*. Program attributes allow the user to configure various startup options, preferred window size, and so on for the program. Sometimes the term *preferences* is used instead of program attributes.
+
+
+You should create a configuration file named “`JavaQuizGUI.conf`” for users to configure the program. Your program should use Java `Properties` class API to load the program attributes into your program. At least, the following configurations should be included in your configuration file.
+
+
++ The size of your program window;
++ The *Look and Feel* of your program;
++ The number of questions in each quiz session;
++ The Question file name;
+ 
+
 The configuration file should accompany your program and in the same directory as your GUI application.
 
-In your “JavaQuizGUI.conf” file, there should be a key/attribute pair as bellow to set the Look and Feel of your program to Java Metal Look and Feel:
-LookAndFeel=javax.swing.plaf.metal.MetalLookAndFeel
+In your“*JavaQuizGUI.conf*”file, there should be a key/attribute pair as bellow to set the Look and Feel of your program to Java Metal Look and Feel:
+
+        LookAndFeel=javax.swing.plaf.metal.MetalLookAndFeel
