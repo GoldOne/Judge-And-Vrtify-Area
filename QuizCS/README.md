@@ -110,7 +110,6 @@ The server listens to a socket port for client connection requests. The server p
 
                             `java JavaQuizServer 40213`
                             
-                            
 If the server program starts without any argument, it listens to a default port.
 
 
@@ -125,13 +124,13 @@ The server should display information about the listening port and status of con
 
 The client program can receive a command line argument for the server name and/or port number. For example,
 
-                            `java JavaQuizClient localhost (or localhost:40213)
+                            `java JavaQuizClient localhost (or localhost:40213)`
                             
-                            `
+            
 If the client program starts without any argument, it connects to local host and a default port.
 
 
-        + Before connection
+    + Before connection
         
         
 After starting the client program, you should have the following interface. The status bar should show the current status of the program. Inapplicable items in a state should be disabled.
@@ -150,6 +149,8 @@ The Connection menu has menu items shown in the figure.
 and port number as shown. The default server name should be “localhost:40213”.
 
 ![Fig4](http://i11.tietuku.com/d3072f0fc404b3fa.png)
+
+
                     - The “Exit” item terminates the program. You need make sure to terminate the program
 before properly disconnecting it from the server if it is connected.
 
@@ -159,7 +160,7 @@ The Help menu has one menu item called “About” that pops up an information d
 If the user closes the window at any time, you need make sure the client is disconnected from the server before the window closes. This can be done by setting the proper `DefaultCloseOperation` for the `JFrame` and processing the window event.
 
 
-            + After connection
+  + After connection
             
             
 After the client has connected to the server and registered, you should have the following interface displaying question details and allow the user to select an answer as shown in the figure Question Screen.
@@ -181,5 +182,5 @@ The user name and scores should be maintained by the `Student` object in the cli
 ![Fig6](http://i11.tietuku.com/7ef47b1bc0f769c6.png)
 <p algin='center'><b>Figure: Question Screen</b></p>
 
-!Fig7](http://i11.tietuku.com/80d67a7b3caae94d.png)
+![Fig7](http://i11.tietuku.com/80d67a7b3caae94d.png)
 <p algin='center'><b>Figure: Final Score Screen</b></p>
