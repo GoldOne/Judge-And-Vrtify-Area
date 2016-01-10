@@ -48,10 +48,12 @@ At any stages, if the **Exit** button is pressed, the program should exit.
 
 
 ![Fig 1: First stage screen shot](http://i11.tietuku.com/31437b767d5f1aa0.png)
-<center>
-**Fig 1: First stage screen shot**
-</center>
-Task 2: Program Configuration
+<center>**Fig 1: First stage screen shot**</center>
+
+
+###Task 2: Program Configuration
+
+
 Requirements:
 Your program should be configurable. Users of your program should be able to configure the Look and Feel, the window size, the number of questions in each quiz session and the question file name using a configuration file.
 A Java program can set up its own configurable attributes, called program attributes. Program attributes allow the user to configure various startup options, preferred window size, and so on for the program. Sometimes the term preferences is used instead of program attributes.
