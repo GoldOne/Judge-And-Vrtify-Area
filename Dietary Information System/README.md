@@ -9,6 +9,8 @@ structures and algorithms.
 
 
 Your task is to develop a **Java Application** that lets the user to: 
+
+
 1.  Load data from file,  
 2.  Search for a food and beverage item,  
 3.  Sort items in the order of the types of food and beverage,  
@@ -67,6 +69,8 @@ algorithm suitable for your application.
 
 
 **4.  Delete Menu Item Button**
+
+
 This button can be used to delete a chosen Food and or Beverage Item from the list. 
 After clicking the ‘Delete Menu Item’ button the user chooses either a Food Item or a 
 Beverage Item or both Food and Beverage Items using the ComboBoxes. The items 
@@ -77,7 +81,7 @@ from the LinkedList/ArrayList.
 **5.  Display Items Button**
 
 
-    This button enables the user to display items in the TextArea after deleting item/s. 
+  This button enables the user to display items in the TextArea after deleting item/s. 
     
     
 **6.  Save Menu Items Button**
@@ -91,5 +95,5 @@ The user can save the list of Items after deletion to the file using this button
 
 The “Quit” menu should allow the user to exit from the application.  
 ![Figure 3 Screen Display on clicking 'Search Items'](http://i4.tietuku.com/21e0ce7bebba8394.png)
-<p align='cneter'><b>Figure 3 Screen Display on clicking 'Search Items'</b></p>
+<p align='center'><b>Figure 3 Screen Display on clicking 'Search Items'</b></p>
 
