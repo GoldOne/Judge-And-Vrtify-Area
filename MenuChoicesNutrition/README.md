@@ -55,7 +55,7 @@ Textfield should be set to its initial value of ‘1’and the two ComboBoxes mu
 its default status. 
  
  
-  **2. Display Choices **
+  **2. Display Choices**
   
   
           Clicking on the “Display Choices” button should display the selected menu choices, 
@@ -68,12 +68,14 @@ item.
 ![Screen Display on clicking ‘Display Choices'](http://i11.tietuku.com/d3e1047c2b1a668a.png)
 <p align='center'><b>Screen Display on clicking 'Display Choices'</b></p>
 
-**  3.  Clear Display**
+**3.  Clear Display**
 
 
         Clicking on the “Clear Display” button should clear all contents from the display area 
 and set the Textfields and ComboBoxes to their default values.  
  
-  **4. Quit  **
+  **4. Quit**
+  
+  
         The “Quit” button should allow the user to exit from the application.  
  
