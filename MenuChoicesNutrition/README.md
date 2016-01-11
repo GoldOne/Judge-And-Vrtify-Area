@@ -18,8 +18,10 @@ Choices” button, “Clear Display” button and “Quit” button.
 The functions of four buttons are described below.
 
 
-**1. Enter Data **
-        The user enters the name and table number through the text fields on the GUI, and 
+**1. Enter Data**
+
+
+The user enters the name and table number through the text fields on the GUI, and 
 selects food and beverage for the lunch menu. The list of food and beverage items to 
 be  used  is  provided  in  Tables  1-2  given  below.  These  Tables  contain  the 
 corresponding nutrition values also. 
