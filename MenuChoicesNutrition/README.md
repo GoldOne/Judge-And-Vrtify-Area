@@ -37,31 +37,17 @@ corresponding nutrition values also.
 ![Initial Screen Display](http://i11.tietuku.com/d472ee5a31f8231a.png)
 <p align='center'><b>Initial Screen Display</b></p>
 
-Table 2. Food items and Nutrition Values 
-Item  Calories 
-(Kcal) 
-Saturated 
-Fat(g) 
-Cholesterol 
-(mg) 
-Sodium (mg)  Fiber (g) 
-Caprese 
-Sandwich, 
-550  13  30  860  3 
-Chicken 
-Pomodoro 
-Sandwich 
-680  13  105  1410  4 
-Egg on a 
-Bagel  
-510  6  350  880  2 
-Macaroni & 
-Cheese 
-710  24  125  1560  3 
-Meat Lasagna  470  11  100  1080  5 
-Roasted 
-Angus Steak  
-630  4  80  1100  3 
+**Table 2. Food items and Nutrition Values **
+
+|  Item |  Calories (Kcal) | Saturated Fat(g) | Cholesterol (mg) | Sodium (mg) | Fiber (g) |
+|:--------------:|:----------------:|:------------------:|:------------------:|:--------------:|:------------:|
+|Capres Sandwich,|550|  13| 30| 860|3| 
+|Chicken Pomodoro Sandwich |680 | 13| 105|1410|4| 
+|Egg on a Bagel|510|6|350|880|2| 
+|Macaroni & Cheese|710|24|125|1560|3| 
+|Meat Lasagna|470|11|100|1080|5| 
+|Roasted Angus Steak |630 |4| 80| 1100| 3| 
+
 
 The user should enter required data and click on “Enter data” button. Note that after “Enter 
 Data”  button  is  clicked,  the  Name  Textfield  must  be  cleared  as  blank,  the  TableNumber 
@@ -69,47 +55,25 @@ Textfield should be set to its initial value of ‘1’and the two ComboBoxes mu
 its default status. 
  
  
-2. Display Choices 
-Clicking on the “Display Choices” button should display the selected menu choices, 
+  **2. Display Choices **
+  
+  
+          Clicking on the “Display Choices” button should display the selected menu choices, 
 including nutrition values for each of the nutrition information, and the total nutrition 
 information for the whole menu. The nutrition values to be displayed are Calorie, 
 Saturated Fat, Cholesterol, Sodium, and Fiber as shown below. The total of each 
 nutrition value is calculated by adding the corresponding nutrition value for each 
 item.  
 
-3.  Clear Display  
-Clicking on the “Clear Display” button should clear all contents from the display area 
+![Screen Display on clicking ‘Display Choices'](http://i11.tietuku.com/d3e1047c2b1a668a.png)
+<p align='center'><b>Screen Display on clicking 'Display Choices'</b></p>
+
+**  3.  Clear Display**
+
+
+        Clicking on the “Clear Display” button should clear all contents from the display area 
 and set the Textfields and ComboBoxes to their default values.  
  
-4. Quit  
-The “Quit” button should allow the user to exit from the application.  
+  **4. Quit  **
+        The “Quit” button should allow the user to exit from the application.  
  
-Data Structures. 
-You can use the classes given below as a guideline for your design. 
-1.  Customer class 
-a)  Include appropriate fields to store: 
- Customer's first name:  Maximum width 20 characters. 
-Selected table number: It should be an integer value between 1and 8 with a 
-default value  of 1. Raise an exception for wrong entry and allow the user to 
-re-enter the value for 3 times. 
-b)  A constructor and necessary accessor and mutator methods to get and set 
-values 
-c)  A toString method that displays the customer details 
-2.  MenuItem Class 
-a)  This class should have the fields to store: 
-Menu name and the value of each of the five nutrition information included. 
-b)  It should also include constructor, mutator, and accessor methods,  
-c)  A toString method for displaying item details. 
-3.  OrderedCustomer class 
-a)  This  calss  is  extends  the  Customer  class. This  class  should  have  a  member 
-field to store the list of menu items chosen by the customer by clicking the 
-‘Enter Data’ button. 
-This class should have: 
-b)  Constructor, accessor and mutator methods. 
-c)  A toString method for displaying the OrderedCustomer details. 
-d)  A method to calculate the total of each of the nutrition values. 
- 4.      GUI Components class 
-a)  This class should have the GUI components listed above. 
-b)  It should have the methods to set up the GUI components and the event 
-handling methods.   
-c)  This also contains main method.   
