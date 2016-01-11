@@ -23,8 +23,10 @@ be  used  is  provided  in  Tables  1-2  given  below.  These  Tables  contain  
 corresponding nutrition values also. 
 
 **Table 1. Beverage Items and Nutrition Values**
+
+
 |  Item |  Calories (Kcal) | Saturated Fat(g) | Cholesterol (mg) | Sodium (mg) | Fiber (g) |
-|:--------------:|:----------------:||:------------------:|:------------------:||:--------------:|:------------:|
+|:--------------:|:----------------:|:------------------:|:------------------:|:--------------:|:------------:|
 |Caffe Latte|140| 4|20|105| 0| 
 |Orange Juice|220|0|0|5|1 |
 |Root Beer| 300|0 |0| 45| 0| 
