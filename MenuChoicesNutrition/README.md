@@ -15,8 +15,10 @@ values.
 Choices” button, “Clear Display” button and “Quit” button.  
 
 
-The functions of four buttons are described below. 
-**  1. Enter Data **
+The functions of four buttons are described below.
+
+
+**1. Enter Data **
         The user enters the name and table number through the text fields on the GUI, and 
 selects food and beverage for the lunch menu. The list of food and beverage items to 
 be  used  is  provided  in  Tables  1-2  given  below.  These  Tables  contain  the 
@@ -37,7 +39,7 @@ corresponding nutrition values also.
 ![Initial Screen Display](http://i11.tietuku.com/d472ee5a31f8231a.png)
 <p align='center'><b>Initial Screen Display</b></p>
 
-**Table 2. Food items and Nutrition Values **
+**Table 2. Food items and Nutrition Values**
 
 |  Item |  Calories (Kcal) | Saturated Fat(g) | Cholesterol (mg) | Sodium (mg) | Fiber (g) |
 |:--------------:|:----------------:|:------------------:|:------------------:|:--------------:|:------------:|
@@ -58,7 +60,7 @@ its default status.
   **2. Display Choices**
   
   
-          Clicking on the “Display Choices” button should display the selected menu choices, 
+  Clicking on the “Display Choices” button should display the selected menu choices, 
 including nutrition values for each of the nutrition information, and the total nutrition 
 information for the whole menu. The nutrition values to be displayed are Calorie, 
 Saturated Fat, Cholesterol, Sodium, and Fiber as shown below. The total of each 
