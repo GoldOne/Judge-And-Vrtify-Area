@@ -48,7 +48,7 @@ ComboBoxes with the names of Food and Beverage Items. The nutrition values to be
 displayed are Calorie, Saturated Fat, Cholesterol, Sodium, and Fiber as given in the 
 data file. 
 
-![Figure 1. Initial Screen Display](http://i4.tietuku.com/d966700f76c06f00.png)
+![Figure 1. Initial Screen Display](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig bed/load menu.png)
 <p align='center'><b>Figure 1. Initial Screen Display</b></p>
 
 **2.  Search Items Button**
@@ -76,7 +76,7 @@ After clicking the ‘Delete Menu Item’ button the user chooses either a Food 
 Beverage Item or both Food and Beverage Items using the ComboBoxes. The items 
 getting  deleted  should  be  displayed  in  the  TextArea.  These  items  will  be  removed 
 from the LinkedList/ArrayList.
-![Figure 2.Screen Display on clicking 'Load Data'](http://i4.tietuku.com/c66e2db83f15a749.png)
+![Figure 2.Screen Display on clicking 'Load Data'](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig bed/load data.png)
 <p align='center'><b>Figure 2.Screen Display on clicking 'Load Data'</b></p>
 **5.  Display Items Button**
 
@@ -94,6 +94,6 @@ The user can save the list of Items after deletion to the file using this button
 
 
 The “Quit” menu should allow the user to exit from the application.  
-![Figure 3 Screen Display on clicking 'Search Items'](http://i4.tietuku.com/21e0ce7bebba8394.png)
+![Figure 3 Screen Display on clicking 'Search Items'](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig bed/search items.png)
 <p align='center'><b>Figure 3 Screen Display on clicking 'Search Items'</b></p>
 
