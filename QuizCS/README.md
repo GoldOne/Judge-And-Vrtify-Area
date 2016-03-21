@@ -157,6 +157,7 @@ before properly disconnecting it from the server if it is connected.
 
 The Help menu has one menu item called “About” that pops up an information dialog as shown:
 ![Fig5](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/version.png)
+
 If the user closes the window at any time, you need make sure the client is disconnected from the server before the window closes. This can be done by setting the proper `DefaultCloseOperation` for the `JFrame` and processing the window event.
 
 
