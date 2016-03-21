@@ -47,7 +47,7 @@ After the student name is typed into the text field and a return key is pressed 
 At any stages, if the **Exit** button is pressed, the program should exit.
 
 
-![Fig 1: First stage screen shot](http://i11.tietuku.com/31437b767d5f1aa0.png)
+![Fig 1: First stage screen shot](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig bed/First stage screen shot.png)
 <p align='center'><b>Fig 1: First stage screen shot</b></p>
 
 ####Stage 2 – Question Screen:
@@ -60,19 +60,19 @@ there should be a“**Next**” button to proceed to the next question. (If no a
 pressing the **Next**” button, it should be considered as a wrong answer.) In this stage, if the score
 button is pressed, the current score should be displayed in a dialogue box. The layout requirement is
 specified in Fig. 2.
-![Fig 2: Second stage screen shot of True and False Questions](http://i11.tietuku.com/8b355951e044b43e.png)
+![Fig 2: Second stage screen shot of True and False Questions](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/Second%20stage%20screen%20shot%20of%20t%26f%20questions.png)
 <p align='center'><b>Fig 2: Second stage screen shot of True and False Questions</b></p>
 
 
 Fig. 3 shows the screen for multiple choice questions. The number of radio buttons should be the
 same as the number of answer choices. Other requirements are the same as for the true and false
 questions screen.
-![Fig 3: Second stage screen shot of Multiple Choice Questions](http://i11.tietuku.com/207d1f6b48ee8562.png)
+![Fig 3: Second stage screen shot of Multiple Choice Questions](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/Second%20stage%20screen%20shot%20of%20multi.png)
 <p align='center'><b>Fig 3: Second stage screen shot of Multiple and False Questions</b></p>
 Fig. 4 shows the screen for the last question where the“**Next**”button should change to the
 "**Get Marks**”button. When the“**Get Marks**”button is pressed, the program should progress to the
 next stage.
-![Fig 4: The screen shot of the last question in the second stage](http://i11.tietuku.com/538979a0f24b52f1.png)
+![Fig 4: The screen shot of the last question in the second stage](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/last%20question%20in%20the%20second%20stage.png)
 <p align='center'><b>Fig 4: The screen shot of the last question in the second stage</b></p>
 
 ####Stage 3 – Marks Presentation:
@@ -84,7 +84,7 @@ not contain the tool bar in previous stages.
 
 
 In this stage, you can design any layout you like as long as you meet the above requirements.
-![Fig 5: Third stage screen shot for the final marks presentation](http://i11.tietuku.com/0989dc7127f95832.png)
+![Fig 5: Third stage screen shot for the final marks presentation](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/final%20marks.png)
 <p align='center'><b>Fig 5: Third stage screen shot for the final marks presentation</b></p>
 
 ###Task 2: Program Configuration
