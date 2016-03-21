@@ -116,7 +116,7 @@ If the server program starts without any argument, it listens to a default port.
 The server should display information about the listening port and status of connected users in the console. For example:
 
 
-![Fig1](http://i11.tietuku.com/3bfd2389c71424cc.png)
+![Fig1](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/console%20example.png)
 
 
 **Client GUI Requirements**
@@ -135,20 +135,20 @@ If the client program starts without any argument, it connects to local host and
         
 After starting the client program, you should have the following interface. The status bar should show the current status of the program. Inapplicable items in a state should be disabled.
 
-![Fig2](http://i11.tietuku.com/2d36d54de952d0f2.png)
+![Fig2](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/before%20connect.png)
 
 
 The Connection menu has menu items shown in the figure.
   - The “Connect” item connects the client to the server. If the user attempts to connect, an information dialog should pop up as shown.
 
-![Fig3](http://i11.tietuku.com/3b2c0a1908f91f02.png)
+![Fig3](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/enter%20name%20first.png)
 
 
   - The “Disconnect” item disconnects the client from the server;
   - The “Set Server” item pops up an input dialog for the user to specify the server name
 and port number as shown. The default server name should be “localhost:40213”.
 
-![Fig4](http://i11.tietuku.com/d3072f0fc404b3fa.png)
+![Fig4](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/set%20server.png)
 
 
   - The “Exit” item terminates the program. You need make sure to terminate the program
@@ -156,7 +156,7 @@ before properly disconnecting it from the server if it is connected.
 
 
 The Help menu has one menu item called “About” that pops up an information dialog as shown:
-![Fig5](http://i11.tietuku.com/b9aab6691ef9c622.png)
+![Fig5](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/version.png)
 If the user closes the window at any time, you need make sure the client is disconnected from the server before the window closes. This can be done by setting the proper `DefaultCloseOperation` for the `JFrame` and processing the window event.
 
 
@@ -179,9 +179,9 @@ Once the user pressed the "`Get Score`”button, The connection should be termin
 
 
 The user name and scores should be maintained by the `Student` object in the client program.
-![Fig6](http://i11.tietuku.com/7ef47b1bc0f769c6.png)
+![Fig6](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/question%20screen.png)
 <p align='center'><b>Figure: Question Screen</b></p>
 
-![Fig7](http://i11.tietuku.com/80d67a7b3caae94d.png)
+![Fig7](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/final%20score%20screen.png)
 <p align='center'><b>Figure: Final Score Screen</b></p>
 
