@@ -38,7 +38,7 @@ corresponding nutrition values also.
 |Sweet Tea|250| 0|0|20| 0| 
 |Vanilla Latte| 240|4 | 20| 105 |0| 
 
-![Initial Screen Display](http://i11.tietuku.com/d472ee5a31f8231a.png)
+![Initial Screen Display](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/Initial%20Screen%20Display.png)
 <p align='center'><b>Initial Screen Display</b></p>
 
 **Table 2. Food items and Nutrition Values**
@@ -69,7 +69,7 @@ Saturated Fat, Cholesterol, Sodium, and Fiber as shown below. The total of each
 nutrition value is calculated by adding the corresponding nutrition value for each 
 item.  
 
-![Screen Display on clicking ‘Display Choices'](http://i11.tietuku.com/d3e1047c2b1a668a.png)
+![Screen Display on clicking ‘Display Choices'](https://github.com/GoldOne/Judge-And-Vrtify-Area/blob/master/fig%20bed/Display%20Choices.png)
 <p align='center'><b>Screen Display on clicking 'Display Choices'</b></p>
 
 **3.  Clear Display**
